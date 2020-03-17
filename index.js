@@ -1,6 +1,8 @@
 'use strict';
 
-process._tickCallback();
+module.exports = () => {
+  process._tickCallback();
+}
 
 
 // const buffer = new Buffer(0);
