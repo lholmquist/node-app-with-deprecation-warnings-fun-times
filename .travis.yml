@@ -3,6 +3,7 @@ language: node_js
 env:
   global:
     - NODE_PENDING_DEPRECATION=1
+    - NODE_OPTIONS='--throw-deprecation'
 
 node_js:
   - lts/*
